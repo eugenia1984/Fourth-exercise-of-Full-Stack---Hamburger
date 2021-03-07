@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: rgb(74, 143, 61);
+  --secondary: rgb(240, 236, 236);
+  --tomate: rgb(224, 47, 16);
+  --pan: rgb(220, 173, 96);
+  --pan-sombra: rgb(189, 151, 90);
+  --cebolla-oscuro: rgb(171, 96, 190);
+  --cebolla-claro: rgb(170, 130, 181);
+  --queso: rgb(239, 188, 31);
+  --queso-borde: rgb(194, 159, 52);
+  --albondiga: rgb(165, 53, 14);
+  --hamburguesa: rgb(174, 88, 67);
+  --lechuga-oscuro: #4db67b;
+  --lechuga: #5bd892;
+  --plato: rgba(51, 49, 49, 0.72);
+}
+/****** Header********/
+.cabecera {
+  background-color: var(--primary);
+  color: var(--secondary);
+  text-align: center;
+  padding: 1.5rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 5rem;
+}
+/******** Section container******/
+.container {
+  width: 40rem;
+  margin: 0 auto;
+}
+/******Seccion 1*****/
+.seccion1 {
+  width: 90%;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0 auto;
+}
+
+h2 {
+  background-color: var(--tomate);
+  color: var(--secondary);
+  margin: 1rem 0rem;
+}
+
+p {
+  margin: 0.50rem 0rem;
+}
+/******Seccion 2*******/
+.seccion2 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.pan-arriba {
+  background-color: var(--pan);
+  border-radius: 5rem 5rem 0rem 0rem;
+  height: 6rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pan-arriba-sombra {
+  background-color: var(--pan-sombra);
+  border-radius: 0rem 0rem 5rem 5rem;
+  height: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.queso {
+  background-color: var(--queso);
+  height: 1.50rem;
+  width: 90%;
+  margin: auto;
+}
+
+.queso-borde {
+  background-color: var(--queso-borde);
+  height: 0.25rem;
+  width: 90%;
+  margin: auto;
+}
+
+.tomate {
+  background-color: var(--tomate);
+  height: 2.5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.cebolla {
+  height: 1rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.cebolla-oscura {
+  height: 1rem;
+  width: 7.142%;
+  background-color: var(--cebolla-oscuro);
+  float: left;
+}
+.cebolla-clara {
+  height: 1rem;
+  width: 7.142%;
+  background-color: var(--cebolla-claro);
+  float: left;
+}
+
+.albondiga {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.albondigas {
+  background-color: var(--albondiga);
+  border-radius: 50%;
+  height: 5rem;
+  width: 31%;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.lechuga-oscuro {
+  background-color: var(--lechuga-oscuro);
+  height: 4rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -2rem;
+  border-radius: 0 0 5rem 5rem;
+}
+
+.lechuga {
+  background-color: var(--lechuga);
+  height: 3rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -2rem;
+  border-radius: 0 0 5rem 5rem;
+}
+.hamburguesa {
+  background-color: var(--hamburguesa);
+  height: 2.25rem;
+  width: 90%;
+  margin: auto;
+  border-radius: 2rem;
+  box-shadow: 0.25rem 0.25rem 0.10rem rgb(128, 65, 50) inset, -0.25em -0.25rem 0.10rem rgb(128, 65, 50) inset;
+}
+
+.pan-abajo1 {
+  background-color: var(--pan-sombra);
+  border-radius: 2rem 2rem 0rem 0rem;
+  height: 0.75rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pan-abajo2 {
+  background-color: var(--pan);
+  border-radius: 0rem 0rem 2.75rem 2.75rem;
+  height: 3rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.plato {
+  background-color: var(--plato);
+  height: 1.5rem;
+  border-radius: 0 0 2rem 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/********** Footer ********/
+footer {
+  background-color: var(--primary);
+  padding: 1.5rem;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 15rem;
+}
+
+/***** Media Querie para pantallas de hasta 639px de ancho******/
+@media only screen and (max-width: 639px) {
+  /******** Section container******/
+  .container {
+    width: 28rem;
+    margin: 0 auto;
+  }
+}
+
+/***** Media Querie para pantallas de hasta 479px de ancho******/
+@media only screen and (max-width: 479px) {
+  /******** Section container******/
+  .container {
+    width: 20rem;
+    margin: 0 auto;
+  }
+}
